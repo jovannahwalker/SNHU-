@@ -1,0 +1,50 @@
+#include <iostream>
+#include <limits>
+#include "catch.hpp" // Catch2 testing framework
+
+// Function to calculate factorial
+unsigned long long factorial(int n) {
+    if (n < 0) {
+        throw std::invalid_argument("Factorial is not defined for negative numbers.");
+    } else if (n == 0 || n == 1) {
+        return 1;
+    } else {
+        unsigned long long result = 1;
+        for (int i = 2; i <= n; ++i) {
+            result *= i;
+            if (result > std::numeric_limits<unsigned long long>::max()) {
+                throw std::overflow_error("Factorial calculation resulted in overflow.");
+            }
+        }
+        return result;
+    }
+}
+
+int main() {
+    int num;
+    std::cout << "Enter a number to calculate its factorial: ";
+    std::cin >> num;
+
+    try {
+        unsigned long long result = factorial(num);
+        std::cout << "Factorial of " << num << " is " << result << std::endl;
+    } catch (const std::invalid_argument& e) {
+        std::cerr << "Error: " << e.what() << std::endl;
+    } catch (const std::overflow_error& e) {
+        std::cerr << "Error: " << e.what() << std::endl;
+    } catch (...) {
+        std::cerr << "Unknown error occurred." << std::endl;
+    }
+
+    return 0;
+}
+
+// Unit tests using Catch2
+TEST_CASE("Factorial calculation") {
+    REQUIRE(factorial(0) == 1);
+    REQUIRE(factorial(1) == 1);
+    REQUIRE(factorial(5) == 120);
+    REQUIRE(factorial(10) == 3628800);
+    REQUIRE_THROWS(factorial(-5)); // Invalid argument test
+    REQUIRE_THROWS(factorial(21)); // Overflow error test
+}
