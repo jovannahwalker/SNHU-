@@ -96,7 +96,8 @@ Contact
 
 Feel free to reach out if you have any questions or feedback. You can contact me via:
 
-Email: yourname@example.com
-LinkedIn: Your LinkedIn Profile
-GitHub: Your GitHub Profile
+Email: jovannahwalker@aol.com
+LinkedIn: https://www.linkedin.com/in/jovannah/
+GitHub: @jovannahwalker
+
 Thank you for visiting my Computer Science repository!
