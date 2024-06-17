@@ -1,20 +1,102 @@
-# SNHU-
-# Extended Factorial Calculation Project
+Welcome to my Computer Science repository! This repository contains a collection of projects, algorithms, and problem-solving examples that demonstrate my skills and understanding of various computer science concepts.
 
-## Summarize the project and what problem it was solving:
-This project calculates the factorial of a given number using a function in C++. Factorial is the product of all positive integers up to the given number. The extended version includes error handling for negative inputs and integer overflow cases, along with unit tests using the Catch2 testing framework for validation.
+Table of Contents
 
-## What did you do particularly well?
-I implemented error handling to gracefully handle negative inputs and integer overflow situations. The inclusion of unit tests using Catch2 ensures the correctness of the factorial calculation function under various scenarios.
+Introduction
+Projects
+Sorting Algorithms
+Data Structures
+Machine Learning
+Web Development
+System Design
+Skills
+Contact
+Introduction
 
-## Where could you enhance your code? How would these improvements make your code more efficient, secure, and so on?
-One improvement could be incorporating more comprehensive error messages in the error handling code. This would provide users with clearer feedback on why their input is invalid or why an overflow error occurred. Additionally, optimizing the factorial function for performance in handling large inputs could be explored.
+This repository showcases my journey through different areas of computer science, including algorithms, data structures, machine learning, web development, and system design. Each project is designed to illustrate my proficiency in coding, problem-solving, and application development.
 
-## Which pieces of the code did you find most challenging to write, and how did you overcome this? What tools or resources are you adding to your support network?
-Handling integer overflow cases was challenging, especially ensuring that the program detects and handles overflow appropriately without crashing. I studied integer limits and consulted documentation to understand how to detect and handle overflow conditions. Using the Catch2 testing framework for unit tests provided valuable feedback and validation during the development process.
+Projects
 
-## What skills from this project will be particularly transferable to other projects or course work?
-The skills of implementing error handling, writing unit tests, and dealing with numeric constraints (such as integer overflow) are highly transferable. Understanding and addressing potential edge cases in program logic are crucial skills that can be applied to various programming tasks.
+Sorting Algorithms
+Implementations and comparisons of various sorting algorithms, such as:
 
-## How did you make this program maintainable, readable, and adaptable?
-I used meaningful variable names, clear comments, and structured the code into functions with specific responsibilities. Error handling and input validation enhance the program's reliability and user experience. Unit tests provide a safety net for future changes or additions, ensuring that existing functionality remains intact.
+Bubble Sort
+Merge Sort
+Quick Sort
+Heap Sort
+Technologies Used:
+
+Python
+Jupyter Notebook
+Source Code
+
+Data Structures
+Implementation and usage of fundamental data structures, including:
+
+Arrays and Lists
+Stacks and Queues
+Linked Lists
+Trees and Graphs
+Hash Tables
+Technologies Used:
+
+Python
+Jupyter Notebook
+Source Code
+
+Machine Learning
+Projects and experiments in machine learning, covering:
+
+Supervised Learning: Regression, Classification
+Unsupervised Learning: Clustering, Dimensionality Reduction
+Deep Learning: Neural Networks, CNNs, RNNs
+Technologies Used:
+
+Python
+scikit-learn
+TensorFlow
+Keras
+Source Code
+
+Web Development
+Projects showcasing web development skills, including:
+
+Frontend Development: HTML, CSS, JavaScript, React
+Backend Development: Node.js, Express, Flask
+Full-Stack Projects: Integration of frontend and backend technologies
+Technologies Used:
+
+HTML, CSS, JavaScript
+React
+Node.js, Express
+Flask
+Source Code
+
+System Design
+Documentation and implementation of system design principles and projects, such as:
+
+Designing Scalable Systems
+Database Design and Optimization
+Microservices Architecture
+Load Balancing and Caching
+Technologies Used:
+
+Various programming languages
+Cloud platforms (AWS, Azure, Google Cloud)
+Source Code
+
+Skills
+
+Programming Languages: Python, Java, C++, JavaScript
+Frameworks and Libraries: React, Node.js, Flask, TensorFlow, scikit-learn
+Tools: Git, Docker, Kubernetes
+Databases: MySQL, PostgreSQL, MongoDB
+Cloud Platforms: AWS, Azure, Google Cloud
+Contact
+
+Feel free to reach out if you have any questions or feedback. You can contact me via:
+
+Email: yourname@example.com
+LinkedIn: Your LinkedIn Profile
+GitHub: Your GitHub Profile
+Thank you for visiting my Computer Science repository!
